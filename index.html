@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Natal!</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #8b0000, #b22222, #ffdab9);
+      background-size: cover;
+      font-family: "Georgia", serif;
+      color: #fff8dc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      padding: 40px 60px;
+      border-radius: 25px;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+      max-width: 600px;
+      animation: brilho 3s ease-in-out infinite alternate;
+    }
+
+    h1 {
+      font-size: 55px;
+      color: #fffacd;
+      text-shadow: 0 0 15px gold, 0 0 30px red;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 22px;
+      color: #fff;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    }
+
+    @keyframes brilho {
+      from {
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+      }
+      to {
+        box-shadow: 0 0 35px rgba(255, 215, 0, 0.8);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>🎄 Feliz Natal! 🎁</h1>
+    <img src="./imagem-fm.jpg" alt="Sagrada Família com anjo">
+    <p>
+      Que o amor da Sagrada Família abençoe o teu lar.  
+      <br>Que a paz e a luz do Natal encham teu coração de esperança.  
+      <br><b>Boas festas!</b>
+    </p>
+  </div>
+
+</body>
+</html>
